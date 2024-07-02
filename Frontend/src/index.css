@@ -1,31 +1,31 @@
-/* General form styles */
+
 form {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   border-radius: 10px;
-  background-color: #64006c; /* Dark purple background */
-  color: #ffffff; /* White text color */
-  text-align: center; /* Center-align the text */
-  display: flex; /* Make form flex container */
-  justify-content: space-between; /* Space between sections */
-  flex-wrap: wrap; /* Wrap sections on smaller screens */
+  background-color: #64006c; 
+  color: #ffffff; 
+  text-align: center; 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
 }
 
 h2 {
   margin-bottom: 20px;
   color: #ffffff;
-  width: 100%; /* Full width for headings */
+  width: 100%; 
 }
 
 .section {
   margin-bottom: 20px;
-  width: calc(50% - 10px); /* Two columns with margin */
+  width: calc(50% - 10px); 
 }
 
 .section h3 {
   margin-bottom: 10px;
-  color: #ffa500; /* Orange color */
+  color: #ffa500;
   border-bottom: 1px solid #ffffff;
   padding-bottom: 5px;
 }
@@ -35,7 +35,7 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 15px;
-  position: relative; /* Ensure relative positioning for error messages */
+  position: relative; 
 }
 
 .section .form-group label {
@@ -55,16 +55,16 @@ h2 {
 .error {
   color: red;
   font-size: 14px;
-  margin-top: 5px; /* Adjust margin for better spacing */
-  text-align: left; /* Align error message to the left */
-  position: absolute; /* Position error message relative to parent */
-  bottom: -18px; /* Adjust position to be just below input */
-  left: 0; /* Align to the left */
+  margin-top: 5px; 
+  text-align: left; 
+  position: absolute; 
+  bottom: -18px;
+  left: 0; 
 }
 
 button {
-  background-color: #ffa500; /* Orange background color */
-  color: #64006c; /* Dark purple text color */
+  background-color: #ffa500;
+  color: #64006c;
   padding: 10px 15px;
   border: none;
   border-radius: 25px;
@@ -76,19 +76,19 @@ button {
 }
 
 button:hover {
-  background-color: #ff8c00; /* Darker orange on hover */
+  background-color: #ff8c00; 
 }
 
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
   form {
-    flex-direction: column; /* Stack sections vertically on smaller screens */
-    align-items: center; /* Center-align sections */
+    flex-direction: column; 
+    align-items: center; 
   }
 
   .section {
-    width: 100%; /* Full width for sections on smaller screens */
-    padding: 0 10px; /* Adjust padding for sections */
+    width: 100%; 
+    padding: 0 10px; 
   }
 
   .section .form-group input {
